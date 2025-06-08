@@ -151,7 +151,7 @@ curl -X POST http://localhost:5003/api/chat \
 
 ### Automated Testing Scripts
 
-The system includes comprehensive test scripts for validation and quality assurance:
+The system includes streamlined test scripts for validation and quality assurance:
 
 #### 🚀 **Quick Test** (`tests/quick_test.py`)
 
@@ -159,32 +159,10 @@ The system includes comprehensive test scripts for validation and quality assura
 python tests/quick_test.py
 ```
 
-- **Purpose**: Fast validation of basic functionality
-- **Tests**: Real content integration with grade classifications query
+- **Purpose**: Fast validation of basic functionality and real content integration
+- **Tests**: Grade classifications query with official LBS documents
 - **Runtime**: ~10 seconds
-- **Use Case**: Quick health check during development
-
-#### 🧪 **Capability Tests** (`tests/test_capabilities.py`)
-
-```bash
-python tests/test_capabilities.py
-```
-
-- **Purpose**: Verify chatbot responds properly to "what can you help with" queries
-- **Tests**: 4 different capability queries
-- **Validates**: Response quality, helpfulness, and content coverage
-- **Use Case**: Ensure users get proper guidance on system capabilities
-
-#### 📚 **Real Content Tests** (`tests/test_real_content.py`)
-
-```bash
-python tests/test_real_content.py
-```
-
-- **Purpose**: Validate integration of official LBS documents
-- **Tests**: Grade classifications, resit policies, extenuating circumstances
-- **Validates**: Source attribution, accurate content retrieval
-- **Use Case**: Confirm official PDF content is accessible and accurate
+- **Use Case**: Quick health check during development and deployment
 
 #### 🔧 **System Tests** (`tests/test_system.py`)
 
@@ -193,18 +171,18 @@ python tests/test_system.py
 ```
 
 - **Purpose**: Comprehensive end-to-end system validation
-- **Tests**: Health endpoint, chat functionality, escalation detection, error handling
-- **Validates**: Full RAG pipeline, safety system, API responses
-- **Use Case**: Complete system verification before deployment
+- **Tests**: Health endpoint, chat functionality, escalation detection, error handling, academic policies
+- **Validates**: Full RAG pipeline, 3-tier safety system, API responses, Canvas support
+- **Use Case**: Complete system verification before production deployment
 
 #### Test Results Format
 
-All test scripts provide detailed output including:
+Both test scripts provide detailed output including:
 
 - ✅ **Pass/Fail Status**: Clear indicators for each test
 - 📊 **Metrics**: Response times, content length, source counts
-- 🔍 **Details**: Answer previews, source titles, escalation flags
-- 📈 **Summary**: Overall test results and recommendations
+- 🔍 **Details**: Answer previews, source attribution, escalation flags
+- 📈 **Summary**: Overall test results and system health status
 
 ## 📁 Project Structure
 
@@ -215,8 +193,6 @@ generative-ai-chatbot/
 ├── DEMO_QUESTIONS_COPY_PASTE.md # Demo conversation scripts
 ├── tests/                      # Testing scripts
 │   ├── quick_test.py          # Fast functionality validation
-│   ├── test_capabilities.py   # Capability query testing
-│   ├── test_real_content.py   # Real content integration tests
 │   └── test_system.py         # Comprehensive system tests
 ├── tools/                      # Utility scripts
 │   └── extract_pdf.py         # PDF content extraction tool
