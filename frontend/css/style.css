@@ -306,6 +306,26 @@ h1 {
   border: 1px solid #e9ecef;
 }
 
+/* Better formatting for bot message content */
+.bot-message p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.bot-message br {
+  line-height: 1.8;
+}
+
+.bot-message ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.bot-message li {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
 #user-input {
   flex: 1;
   padding: 14px 18px;

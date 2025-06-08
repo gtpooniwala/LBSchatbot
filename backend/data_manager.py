@@ -136,7 +136,7 @@ class DataManager:
         
         return results
     
-    def get_context_for_query(self, query: str, max_context_length: int = 1500) -> Tuple[str, List[str]]:
+    def get_context_for_query(self, query: str, max_context_length: int = 3000) -> Tuple[str, List[str]]:
         """Get relevant context and sources for a query"""
         relevant_docs = self.search_similar_documents(query, top_k=3)
         
@@ -148,7 +148,12 @@ class DataManager:
         current_length = 0
         
         for doc in relevant_docs:
-            doc_text = f"**{doc['title']}**\n{doc['content']}\n"
+            # Truncate content if too long instead of skipping entirely
+            content = doc['content']
+            if len(content) > 2000:
+                content = content[:2000] + "..."
+            
+            doc_text = f"**{doc['title']}**\n{content}\n"
             
             if current_length + len(doc_text) <= max_context_length:
                 context_parts.append(doc_text)

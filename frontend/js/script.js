@@ -221,7 +221,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Create message content
         const contentDiv = document.createElement('div');
-        contentDiv.textContent = content;
+        if (isUser) {
+            contentDiv.textContent = content; // Keep user messages as plain text
+        } else {
+            // For bot messages, format newlines and bullet points properly
+            console.log('Original content:', JSON.stringify(content)); // Debug line
+            const formattedContent = content
+                .replace(/\\n/g, '<br>')  // Handle escaped newlines
+                .replace(/\n/g, '<br>')   // Handle actual newlines
+                .replace(/- /g, '• ')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'); // Bold text
+            console.log('Formatted content:', formattedContent); // Debug line
+            contentDiv.innerHTML = formattedContent;
+        }
         messageDiv.appendChild(contentDiv);
         
         // Add sources if available

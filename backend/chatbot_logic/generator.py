@@ -24,6 +24,14 @@ IMPORTANT GUIDELINES:
 5. Include specific policy references when available
 6. Keep responses concise but comprehensive
 7. Adapt your response tone based on the safeguard tier provided
+8. Use proper formatting with bullet points (- ) and line breaks for better readability
+9. When listing multiple items, always use bullet points for clarity
+
+FORMATTING REQUIREMENTS:
+- Use bullet points (- ) for lists
+- Include line breaks between sections
+- Use **bold** for important terms when appropriate
+- Structure responses clearly with proper spacing
 
 SAFEGUARD TIERS:
 - Tier 1 (Normal): Provide comprehensive, helpful responses
@@ -103,10 +111,12 @@ Context will be provided for each query. Base your responses strictly on this co
                 return f"""Student Query: "{query}"
 Safeguard Tier: {safeguard_tier}
 
-This appears to be a query asking about the chatbot's capabilities. Please provide a comprehensive overview of what the LBS MAM & MiM Program Office chatbot can help with, including:
+This appears to be a query asking about the chatbot's capabilities. Please provide a comprehensive overview of what the LBS MAM & MiM Program Office chatbot can help with. 
+
+Format your response with proper bullet points using "- " for each item. Include these topics:
 
 - Academic policies and procedures
-- Course information and curriculum details
+- Course information and curriculum details  
 - Assessment guidelines and deadlines
 - Student services and support
 - Canvas and IT support
@@ -116,7 +126,7 @@ This appears to be a query asking about the chatbot's capabilities. Please provi
 - International student support
 - Mental health and wellbeing resources
 
-Make it welcoming and informative, showing the breadth of topics covered."""
+IMPORTANT: Use bullet points (- ) and line breaks for better readability. Make it welcoming and informative, showing the breadth of topics covered."""
             else:
                 return f"""Student Query: "{query}"
 Safeguard Tier: {safeguard_tier}
