@@ -23,20 +23,28 @@ IMPORTANT GUIDELINES:
 4. For sensitive issues (harassment, mental health, emergencies), direct students to contact the Program Office directly
 5. Include specific policy references when available
 6. Keep responses concise but comprehensive
-7. Always end with an offer to escalate to human staff if needed
+7. Adapt your response tone based on the safeguard tier provided
+
+SAFEGUARD TIERS:
+- Tier 1 (Normal): Provide comprehensive, helpful responses
+- Tier 2 (Cautious): Provide basic info but emphasize human support is recommended
+- Tier 3 (Critical): Should not reach here - handle via immediate escalation
 
 Context will be provided for each query. Base your responses strictly on this context."""
 
     def generate_response(self, query: str, context: str, sources: List[str], query_analysis: Dict) -> Dict[str, any]:
-        """Generate a response using OpenAI based on the provided context"""
+        """Generate a response using OpenAI based on the provided context and safeguard tier"""
         
         try:
-            # Check if escalation is needed
-            if query_analysis.get('requires_escalation', False):
-                return self._get_escalation_response()
+            # Check safeguard tier from query analysis
+            safeguard_tier = query_analysis.get('safeguard_tier', 1)
             
-            # Prepare the user message with context
-            user_message = self._prepare_user_message(query, context, sources)
+            # Tier 3: Immediate escalation - don't generate AI response
+            if safeguard_tier == 3:
+                return query_analysis.get('tier_3_response', self._get_tier_3_escalation_response())
+            
+            # Tier 2 & 1: Generate AI response with appropriate guidance
+            user_message = self._prepare_user_message(query, context, sources, safeguard_tier)
             
             # Generate response using OpenAI
             response = self.client.chat.completions.create(
@@ -51,15 +59,33 @@ Context will be provided for each query. Base your responses strictly on this co
             
             generated_text = response.choices[0].message.content.strip()
             
-            # Format the response
-            formatted_response = {
-                "answer": generated_text,
-                "sources": sources,
-                "escalation_available": True,
-                "escalation_text": "Need to speak with someone? Contact the Program Office.",
-                "escalation_link": "mailto:mam-mim@london.edu?subject=Student Inquiry",
-                "confidence": "high" if context else "low"
-            }
+            # Format response based on safeguard tier
+            if safeguard_tier == 2:
+                # Tier 2: Cautious response with strong recommendation for human contact
+                enhanced_response = f"""{generated_text}
+
+**⚠️ Important:** This topic often requires personalized guidance. I strongly recommend speaking with a staff member who can provide tailored advice for your specific situation."""
+                
+                formatted_response = {
+                    "answer": enhanced_response,
+                    "sources": sources,
+                    "escalation_recommended": True,
+                    "escalation_text": "Speak with Program Office Staff",
+                    "escalation_link": "mailto:mam-mim@london.edu?subject=Need Personal Guidance",
+                    "confidence": "medium",
+                    "safeguard_tier": 2
+                }
+            else:
+                # Tier 1: Normal response
+                formatted_response = {
+                    "answer": generated_text,
+                    "sources": sources,
+                    "escalation_available": True,
+                    "escalation_text": "Need more help? Contact the Program Office",
+                    "escalation_link": "mailto:mam-mim@london.edu?subject=Student Inquiry",
+                    "confidence": "high" if context else "low",
+                    "safeguard_tier": 1
+                }
             
             return formatted_response
             
@@ -67,37 +93,58 @@ Context will be provided for each query. Base your responses strictly on this co
             print(f"Error generating response: {e}")
             return self._get_fallback_response(query)
     
-    def _prepare_user_message(self, query: str, context: str, sources: List[str]) -> str:
-        """Prepare the user message with context and sources"""
+    def _prepare_user_message(self, query: str, context: str, sources: List[str], safeguard_tier: int = 1) -> str:
+        """Prepare the user message with context and sources, adjusted for safeguard tier"""
         
         if not context:
             return f"""Student Query: "{query}"
+Safeguard Tier: {safeguard_tier}
 
 No relevant context found in the knowledge base. Please provide a helpful response directing the student to contact the Program Office for assistance."""
         
         sources_text = "\n".join([f"- {source}" for source in sources]) if sources else "No specific sources available"
         
+        # Add tier-specific guidance
+        tier_guidance = ""
+        if safeguard_tier == 2:
+            tier_guidance = "\n\nIMPORTANT: This is a Tier 2 (Cautious) query. Provide helpful information but emphasize that personal guidance from staff is strongly recommended."
+        elif safeguard_tier == 1:
+            tier_guidance = "\n\nThis is a Tier 1 (Normal) query. Provide comprehensive, helpful information."
+        
         user_message = f"""Student Query: "{query}"
+Safeguard Tier: {safeguard_tier}
 
 Relevant Information from Knowledge Base:
 {context}
 
 Sources:
-{sources_text}
+{sources_text}{tier_guidance}
 
-Please provide a helpful, accurate response based on the above context. Include relevant policy details and always offer escalation to human staff if needed."""
+Please provide a helpful, accurate response based on the above context. Include relevant policy details and appropriate escalation guidance."""
         
         return user_message
     
-    def _get_escalation_response(self) -> Dict[str, any]:
-        """Get response for queries requiring immediate escalation"""
+    def _get_tier_3_escalation_response(self) -> Dict[str, any]:
+        """Get immediate escalation response for Tier 3 critical queries"""
         return {
-            "answer": "I understand you have a sensitive or complex issue that requires personal attention. For matters involving harassment, discrimination, mental health, or other sensitive topics, please contact the Program Office directly. A staff member will assist you confidentially and ensure you receive the appropriate support.",
-            "sources": ["LBS Student Support Services"],
+            "answer": """I understand you're reaching out about a sensitive matter that requires immediate personal attention. For your safety and wellbeing, please contact the appropriate support services directly:
+
+🆘 **Emergency Services**: If you're in immediate danger, call 999 (UK) or your local emergency number.
+
+🏥 **LBS Student Support**: For urgent student matters, contact the Program Office immediately at mam-mim@london.edu or call during business hours.
+
+💙 **Mental Health Support**: 
+- Samaritans (24/7): 116 123 (free, confidential)
+- NHS Mental Health Crisis: Text SHOUT to 85258
+- LBS Counseling Services: Available through Student Services
+
+Your wellbeing is the top priority. Please reach out for help - you don't have to handle this alone.""",
+            "sources": ['LBS Student Support Services', 'Emergency Services', 'Mental Health Resources'],
             "escalation_required": True,
-            "escalation_text": "Contact Program Office Now",
-            "escalation_link": "mailto:mam-mim@london.edu?subject=Urgent Student Support Request",
-            "confidence": "high"
+            "escalation_text": 'Get Help Now',
+            "escalation_link": 'mailto:mam-mim@london.edu?subject=Urgent Support Request',
+            "confidence": 'high',
+            "safeguard_tier": 3
         }
     
     def _get_fallback_response(self, query: str) -> Dict[str, any]:

@@ -1,0 +1,10 @@
+# LBS RAG Chatbot - Main Dependencies
+# This is a simplified requirements file for quick setup
+# For full backend dependencies, see backend/requirements.txt
+
+# Install backend dependencies
+-r backend/requirements.txt
+
+# Additional development tools (optional)
+pytest>=7.0.0
+jupyter>=1.0.0

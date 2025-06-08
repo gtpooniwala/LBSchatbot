@@ -50,16 +50,17 @@ def chat():
         query_analysis = query_processor.process_query(user_query)
         print(f"Query analysis: {query_analysis}")
         
-        # Check for immediate escalation
-        if query_analysis.get('requires_escalation', False):
-            escalation_response = query_processor.get_escalation_response()
-            return jsonify(escalation_response)
+        # Check for Tier 3 (Critical) - immediate escalation
+        if query_analysis.get('requires_immediate_escalation', False):
+            tier_3_response = query_processor.get_tier_3_escalation_response()
+            return jsonify(tier_3_response)
         
         # Get relevant context from knowledge base
         context, sources = data_manager.get_context_for_query(query_analysis['cleaned_query'])
         print(f"Found {len(sources)} relevant sources")
         
-        # Generate response using OpenAI
+        # For Tier 2 queries, we still generate a response but with enhanced caution
+        # For Tier 1 queries, normal processing
         response_data = response_generator.generate_response(
             query=user_query,
             context=context,
@@ -142,4 +143,4 @@ def log_interaction(query: str, response_data: dict):
         print(f"Error logging interaction: {e}")
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=True, host='0.0.0.0', port=5003)

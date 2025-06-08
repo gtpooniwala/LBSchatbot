@@ -3,17 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generative AI Chatbot</title>
+    <title>LBS Student Assistant</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div id="chat-container">
-        <h1>Generative AI Chatbot</h1>
-        <div id="chat-box">
-            <div id="messages"></div>
+    <div id="app-container">
+        <!-- History Sidebar -->
+        <div id="history-sidebar">
+            <div class="sidebar-header">
+                <div class="lbs-logo">
+                    <img src="assets/lbs-logo.svg" alt="LBS Logo" class="logo-svg">
+                    <span class="logo-title">Student Assistant</span>
+                </div>
+                <button id="new-chat-btn" class="new-chat-btn">
+                    <i class="fas fa-plus"></i>
+                    New Chat
+                </button>
+            </div>
+            
+            <div class="sidebar-content">
+                <div class="history-section">
+                    <h3>Chat History</h3>
+                    <div id="chat-history-list">
+                        <!-- Chat history items will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="lbs-branding">
+                    <p>© 2025 London Business School</p>
+                    <p class="tagline">Minds Alive</p>
+                </div>
+            </div>
         </div>
-        <input type="text" id="user-input" placeholder="Type your message here...">
-        <button id="send-button">Send</button>
+
+        <!-- Main Chat Area -->
+        <div id="main-content">
+            <div id="chat-container">
+                <div class="chat-header">
+                    <button id="sidebar-toggle" class="sidebar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1>LBS Student Assistant</h1>
+                    <div class="header-actions">
+                        <button id="clear-chat-btn" class="clear-chat-btn" title="Clear current chat">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="chat-box">
+                    <div id="messages"></div>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Ask me about policies, Canvas, or anything else...">
+                    <button id="send-button">
+                        <i class="fas fa-paper-plane"></i>
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

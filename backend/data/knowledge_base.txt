@@ -1,41 +1,679 @@
-# LBS MAM & MiM Program Knowledge Base
+# LBS MAM & MiM Program Comprehensive Knowledge Base
 
-## Policy: Deferral of Assessment
-Students may request a deferral of assessment due to extenuating circumstances such as illness or family emergency. Requests must be submitted via the official Deferral Request Form, accompanied by supporting documentation, no later than five working days after the assessment date. The Program Office will review all requests and notify students of the outcome within ten working days.
-Source: [LBS Assessment Policy PDF, Section 4.2](https://lbs.edu/policies/assessment)
+## Academic Policies & Procedures
 
----
-
-## Policy: Attendance Requirements
-Students are required to attend at least 80% of all scheduled classes and seminars. Failure to meet this requirement without prior approval may result in a failing grade for the module. Exceptions may be granted for documented medical or personal emergencies.
-Source: [LBS Student Handbook, Page 12](https://lbs.edu/handbook)
+### Policy: Deferral of Assessment
+Students may request a deferral of assessment due to extenuating circumstances such as illness or family emergency. Requests must be submitted via the official Deferral Request Form, accompanied by supporting documentation, no later than five working days after the assessment date. The Program Office will review all requests and notify students of the outcome within ten working days. Medical documentation must be from a qualified healthcare professional and dated within the assessment period.
+Source: [LBS Assessment Policy PDF, Section 4.2](https://london.edu/policies/assessment)
 
 ---
 
-## Canvas: Submitting Assignments
-All assignments must be submitted via the Canvas platform by the specified deadline. Late submissions will incur a penalty of 10% per day, up to a maximum of five days, after which the assignment will receive a grade of zero unless an extension has been granted.
-Source: [Canvas Assignment Submission Guide](https://canvas.lbs.edu/assignments)
+### Policy: Attendance Requirements
+Students are required to attend at least 80% of all scheduled classes and seminars. Failure to meet this requirement without prior approval may result in a failing grade for the module. Exceptions may be granted for documented medical or personal emergencies. Students must notify the Program Office within 48 hours of any anticipated absence. Attendance is tracked electronically via student ID card scanning.
+Source: [LBS Student Handbook, Page 12](https://london.edu/handbook)
 
 ---
 
-## Policy: Escalation Pathway for Sensitive Issues
-For complex or sensitive issues (e.g., harassment, discrimination, mental health), students are encouraged to contact the Program Office directly or use the escalation link provided in the chatbot. These cases will be handled confidentially and referred to the appropriate staff member or support service.
-Source: [LBS QA Page: Student Support](https://lbs.edu/support)
+### Policy: Plagiarism and Academic Integrity
+All submitted work must be the student's own. Plagiarism, including copying from other students or online sources without proper citation, is a serious offense and may result in disciplinary action, including expulsion. All assignments are processed through Turnitin plagiarism detection software. Students must complete the Academic Integrity module before submitting their first assignment. Group work guidelines must be clearly followed, and individual contributions must be identifiable.
+Source: [LBS Academic Integrity Policy](https://london.edu/policies/integrity)
 
 ---
 
-## FAQ: How do I request a transcript?
-Transcripts can be requested online via the LBS Student Portal. Processing typically takes 3-5 business days. For urgent requests, contact the Program Office.
-Source: [LBS Student Portal FAQ](https://lbs.edu/portal/faq)
+### Policy: Grade Appeals Process
+Students who wish to appeal a grade must submit a formal appeal within 10 working days of receiving their results. The appeal must include specific grounds for disagreement and supporting evidence. Appeals are reviewed by an independent academic panel. Grade appeals for final examinations require additional documentation including exam scripts review request.
+Source: [LBS Academic Appeals Process](https://london.edu/policies/appeals)
 
 ---
 
-## Canvas: Accessing Course Materials
-Course materials, including lecture slides and readings, are available on the Canvas course page under the "Modules" section. If you are unable to access a specific resource, please contact your course administrator.
-Source: [Canvas Help Page](https://canvas.lbs.edu/help)
+### Policy: Extensions and Late Submissions
+Assignment extensions may be granted for documented extenuating circumstances. Requests must be submitted at least 48 hours before the deadline via the online Extension Request Form. Late submissions without approved extensions incur penalties: 5% per day for the first 3 days, 10% per day thereafter, up to a maximum of 7 days. After 7 days, assignments receive zero marks unless exceptional circumstances apply.
+Source: [LBS Assessment Guidelines](https://london.edu/policies/extensions)
 
 ---
 
-## Policy: Plagiarism and Academic Integrity
-All submitted work must be the student's own. Plagiarism, including copying from other students or online sources without proper citation, is a serious offense and may result in disciplinary action, including expulsion.
-Source: [LBS Academic Integrity Policy](https://lbs.edu/policies/integrity)
+## Canvas Learning Management System
+
+### Canvas: Submitting Assignments
+All assignments must be submitted via the Canvas platform by the specified deadline. Submissions must be in the specified format (PDF, Word, etc.). Students receive email confirmation upon successful submission. File size limit is 100MB per submission. Multiple attempts are allowed before the deadline unless otherwise specified. Always check the submission timestamp to ensure on-time delivery.
+Source: [Canvas Assignment Submission Guide](https://learning.london.edu/courses/assignments)
+
+---
+
+### Canvas: Accessing Course Materials
+Course materials, including lecture slides, readings, and video content, are available on the Canvas course page under the "Modules" section. Materials are typically uploaded 24 hours before each session. Recorded lectures are available within 48 hours of the live session. If you cannot access specific resources, check your internet connection first, then contact your course administrator.
+Source: [Canvas Help Page](https://learning.london.edu/support)
+
+---
+
+### Canvas: Group Work and Discussions
+Canvas facilitates group assignments through the Groups feature. Students are automatically enrolled in assigned groups. Discussion forums are available for each module and assignment. Posts are monitored by faculty and teaching assistants. Netiquette guidelines must be followed in all online interactions.
+Source: [Canvas Collaboration Guide](https://learning.london.edu/courses/groups)
+
+---
+
+### Canvas: Gradebook and Feedback
+Grades and feedback are published via the Canvas Gradebook. Students receive email notifications when new grades are posted. Detailed feedback is provided through SpeedGrader comments and rubrics. Grade calculations are weighted according to the syllabus. Students can track their progress throughout the semester.
+Source: [Canvas Gradebook Help](https://learning.london.edu/courses/grades)
+
+---
+
+### Canvas: Course Navigation and Organization
+Each student has access to multiple course pages in Canvas, organized by term and program year. The main Dashboard shows all active courses with recent announcements and upcoming assignments. Course codes follow the format: [TERM][YEAR]-[PROGRAM]-[MODULE] (e.g., T1-2024-MAM-ANALYTICS). 
+
+**Navigation Structure:**
+- **Dashboard**: Overview of all courses, recent activity, and to-do items
+- **Courses Menu**: Complete list of current and past enrollments
+- **Calendar**: Integrated view of all deadlines, sessions, and events
+- **Inbox**: Internal messaging system for faculty and peer communication
+- **Account Settings**: Profile management, notification preferences, and privacy controls
+
+**Course Page Elements:**
+- **Announcements**: Critical updates from faculty and program office
+- **Modules**: Sequential organization of learning materials by week/topic
+- **Assignments**: Detailed briefs, submission portals, and grading rubrics
+- **Discussions**: Forum-style interactions for class debates and Q&A
+- **Grades**: Real-time access to marks, feedback, and progress tracking
+- **People**: Directory of classmates, instructors, and teaching assistants
+- **Files**: Repository for lecture slides, readings, and supplementary materials
+
+**Mobile Access**: Canvas mobile app available for iOS and Android with full functionality including offline content access, push notifications for updates, and mobile-optimized assignment submission. Students should download the app using their LBS credentials (@london.edu email) for seamless synchronization.
+
+**Accessibility Features**: Canvas supports screen readers, keyboard navigation, and high contrast modes. Students requiring accessibility accommodations should contact disability-support@london.edu to configure appropriate settings.
+Source: [Canvas Platform Guide](https://learning.london.edu/guide/navigation)
+
+---
+
+### Canvas: Advanced Assignment Management
+Assignment submission in Canvas supports multiple file formats, collaborative submissions, and integrated plagiarism detection. Each assignment includes detailed submission requirements, word count limits, and formatting specifications.
+
+**Submission Process:**
+1. **Access Assignment**: Navigate to course → Assignments → Select specific task
+2. **Review Requirements**: Check file format (PDF, Word, Excel), size limits, and special instructions
+3. **Prepare Submission**: Ensure file names follow format: LastName_FirstName_ModuleCode_AssignmentName
+4. **Upload Files**: Drag-and-drop or browse to select files (max 100MB per file, 500MB total)
+5. **Add Comments**: Optional text box for clarifications or additional context
+6. **Submit**: Click submit button and verify confirmation email receipt
+
+**Group Assignments**: For collaborative work, only one team member submits on behalf of the group. All group member names must be clearly listed in the document header. Canvas automatically notifies all group members of the submission. Group formation is managed through Canvas Groups feature, with automatic enrollment based on program office assignments.
+
+**Late Submission Protocol**: Canvas automatically timestamps all submissions. Late penalties are applied automatically according to module-specific policies. Students can view remaining time until deadline on the assignment page. Emergency extensions require approval from both module leader and program office.
+
+**Version Control**: Canvas allows multiple submissions before the deadline. Only the final submission is graded unless otherwise specified. Students can download their submitted files for verification. Previous versions remain accessible in submission history.
+
+**Plagiarism Detection**: All text-based submissions are automatically processed through Turnitin integration. Similarity reports are available to students post-submission for self-review. Academic integrity violations are flagged for manual review by faculty.
+Source: [Canvas Assignment Submission Protocol](https://learning.london.edu/courses/assignments/submission-guide)
+
+---
+
+### Canvas: Grade Management and Feedback Systems
+Canvas provides comprehensive grade tracking with weighted calculations, detailed feedback mechanisms, and progress analytics for both students and faculty.
+
+**Gradebook Features:**
+- **Real-time Updates**: Grades appear immediately after faculty input
+- **Weighted Calculations**: Automatic computation based on syllabus percentages
+- **Grade Trends**: Visual analytics showing performance progression
+- **What-if Scenarios**: Tool to calculate impact of future assignment grades
+- **Grade Export**: Download complete grade history for personal records
+
+**Feedback Delivery Methods:**
+- **SpeedGrader Comments**: Inline feedback directly on submitted documents
+- **Audio/Video Feedback**: Personalized recordings from instructors
+- **Rubric Scoring**: Standardized criteria with detailed performance indicators
+- **Peer Review Integration**: Structured feedback from classmates for designated assignments
+- **Annotation Tools**: Highlighting, commenting, and markup capabilities on PDF submissions
+
+**Grade Categories and Weighting**: Each module follows specific weighting structures defined in the syllabus. Common categories include: Participation (10-15%), Individual Assignments (20-30%), Group Projects (25-35%), Midterm Assessment (15-25%), Final Assessment (25-40%). Canvas automatically applies these weightings to calculate running totals.
+
+**Grade Disputes and Appeals**: Students can request grade reviews through Canvas messaging system within 5 working days of grade release. All communications are documented and accessible to academic administration. Formal appeals require separate submission through Student Portal with supporting documentation.
+Source: [Canvas Gradebook User Guide](https://learning.london.edu/courses/grades/management)
+
+---
+
+### Canvas: Discussion Forums and Collaboration Tools
+Canvas discussion forums facilitate structured academic discourse, peer learning, and faculty-student interaction. Each course includes multiple forum types with specific protocols and moderation guidelines.
+
+**Forum Types and Purposes:**
+- **General Q&A**: Course-related questions, clarifications, and announcements
+- **Academic Discussions**: Topic-specific debates, case study analyses, and theoretical explorations
+- **Group Project Spaces**: Private forums for team collaboration and coordination
+- **Peer Review Forums**: Structured feedback exchange for draft assignments
+- **Social Forums**: Informal networking and community building
+
+**Participation Guidelines:**
+- **Professional Communication**: Formal academic tone required for all posts
+- **Constructive Engagement**: Build upon others' ideas with evidence-based responses
+- **Timely Responses**: Initial posts due by Wednesday, responses by Sunday (unless specified otherwise)
+- **Citation Requirements**: Proper referencing for external sources and academic materials
+- **Respectful Discourse**: Zero tolerance for discriminatory or inappropriate content
+
+**Moderation and Monitoring**: All discussions are monitored by faculty and teaching assistants. Posts flagged for inappropriate content are reviewed within 24 hours. Students can report concerning content using the flag feature. Anonymous posting is disabled to ensure accountability.
+
+**Assessment Criteria**: Discussion participation is typically worth 10-15% of module grade, assessed on: Quality of original posts (40%), Thoughtful responses to peers (35%), Frequency and consistency of engagement (25%). Rubrics are available in each forum for transparency.
+Source: [Canvas Discussion Forum Guidelines](https://learning.london.edu/courses/discussions/protocols)
+
+---
+
+## Program Structure & Requirements
+
+### MAM Program Structure
+The Master in Analytics and Management (MAM) is a 12-month program comprising 8 core modules and 2 electives. Core modules include Data Analytics, Strategic Management, Digital Marketing, Operations Management, Financial Analysis, Leadership, Consulting Skills, and Capstone Project. Students must maintain minimum pass grades (50%) in all modules to remain in good standing. The program includes mandatory internship placement during the summer period.
+Source: [MAM Program Handbook](https://london.edu/programs/mam/handbook)
+
+---
+
+### MAM Core Module Detailed Breakdown
+The MAM program core modules provide comprehensive business education combining analytical rigor with practical management skills. Each module is taught over 6-8 weeks with intensive workshops, case studies, and real-world projects.
+
+**Term 1 Core Modules:**
+
+**Data Analytics for Business (ANALYTICS-101)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Individual project (40%), Group presentation (35%), Class participation (25%)
+- **Content**: Statistical analysis, predictive modeling, data visualization, machine learning basics
+- **Software**: R, Python, Tableau, Advanced Excel
+- **Prerequisites**: Basic statistics knowledge (foundation module available)
+- **Industry Applications**: Customer segmentation, market research, financial modeling
+- **Final Project**: Real client data analysis with presentation to industry panel
+- **Key Faculty**: Prof. Sarah Chen (Harvard PhD, former McKinsey Principal)
+
+**Strategic Management Fundamentals (STRATEGY-101)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Case study analysis (50%), Strategic planning project (35%), Peer evaluation (15%)
+- **Content**: Competitive analysis, corporate strategy, business model innovation
+- **Methodology**: Harvard Business School case method
+- **Guest Speakers**: CEOs from FTSE 100 companies, strategy consultants
+- **Capstone**: Develop comprehensive strategy for assigned start-up company
+- **Key Faculty**: Prof. Michael Thompson (Wharton PhD, former Bain Partner)
+
+**Digital Marketing and Consumer Behavior (MARKETING-101)**
+- **Duration**: 7 weeks, 28 contact hours
+- **Assessment**: Digital campaign project (45%), Consumer research analysis (30%), Online participation (25%)
+- **Content**: Social media strategy, SEO/SEM, content marketing, consumer psychology
+- **Practical Elements**: Live campaign management with £5,000 budget per team
+- **Industry Partners**: Google, Facebook, Amazon advertising teams provide workshops
+- **Certification**: Google Ads and Facebook Blueprint certifications included
+- **Key Faculty**: Dr. Emma Rodriguez (Cambridge PhD, former P&G Brand Manager)
+
+**Term 2 Core Modules:**
+
+**Operations Management and Supply Chain (OPERATIONS-201)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Process improvement project (40%), Supply chain case study (35%), Individual exam (25%)
+- **Content**: Lean methodology, inventory management, quality control, logistics optimization
+- **Site Visits**: Amazon fulfillment center, BMW manufacturing plant, Heathrow Airport operations
+- **Software Training**: SAP, Oracle Supply Chain Management
+- **Simulation**: Multi-week supply chain management simulation with real market pressures
+- **Key Faculty**: Prof. David Park (MIT PhD, former Toyota Production System consultant)
+
+**Financial Analysis and Corporate Finance (FINANCE-201)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Financial modeling project (45%), Investment analysis (30%), Class participation (25%)
+- **Content**: Valuation methods, capital structure, risk management, M&A analysis
+- **Bloomberg Terminal Training**: 10 hours of hands-on financial data analysis
+- **Industry Project**: Valuation of publicly listed company with presentation to investment professionals
+- **Guest Lectures**: Investment bankers, private equity professionals, CFOs
+- **Key Faculty**: Dr. James Wilson (London School of Economics PhD, former Goldman Sachs VP)
+
+**Leadership and Organizational Behavior (LEADERSHIP-201)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Leadership development portfolio (40%), Team dynamics project (35%), 360-degree feedback (25%)
+- **Content**: Emotional intelligence, team leadership, organizational change, communication skills
+- **Experiential Learning**: Outdoor leadership challenge, role-playing simulations
+- **Personal Development**: Executive coaching sessions, personality assessments (MBTI, StrengthsFinder)
+- **Peer Feedback**: Comprehensive 360-degree evaluation from classmates and faculty
+- **Key Faculty**: Dr. Rachel Adams (INSEAD PhD, certified executive coach)
+
+**Term 3 Core Modules:**
+
+**Consulting Skills and Problem Solving (CONSULTING-301)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Client project (50%), Case interview preparation (30%), Professional presentation (20%)
+- **Content**: Structured problem-solving, client management, presentation skills, industry analysis
+- **Real Client Projects**: Work with start-ups and SMEs on actual business challenges
+- **Case Interview Training**: Intensive preparation for consulting recruitment with McKinsey, BCG, Bain alumni
+- **Professional Skills**: Business writing, stakeholder management, project timeline management
+- **Final Deliverable**: Comprehensive consulting report with implementation roadmap
+- **Key Faculty**: Prof. Lisa Chang (Kellogg PhD, former Monitor Deloitte Principal)
+
+**Capstone Integration Project (CAPSTONE-301)**
+- **Duration**: 12 weeks, 48 contact hours
+- **Assessment**: Final project (70%), Mid-term presentation (20%), Peer collaboration (10%)
+- **Content**: Integration of all program learnings into comprehensive business solution
+- **Project Types**: New venture creation, corporate innovation, social impact initiative
+- **Mentorship**: Assigned industry mentor from alumni network for guidance
+- **Final Presentation**: Dragon's Den style presentation to panel of investors and executives
+- **Outcomes**: Several projects receive seed funding or job offers from presenting companies
+- **Key Faculty**: Full faculty team with rotating supervision and specialized expertise input
+Source: [MAM Detailed Curriculum Guide](https://london.edu/programs/mam/curriculum-detail)
+
+---
+
+### MiM Program Structure
+The Master in Management (MiM) is a 12-month program designed for recent graduates with limited work experience. The curriculum includes Foundation modules (Accounting, Economics, Statistics), Core modules (Strategy, Marketing, Operations, Finance, Organizational Behavior), and Elective modules. Students complete a summer internship and a final Capstone Project. International students may extend to 16 months with optional pre-program preparation.
+Source: [MiM Program Handbook](https://london.edu/programs/mim/handbook)
+
+---
+
+### MiM Detailed Program Structure and Curriculum
+The Master in Management (MiM) program is designed for recent graduates and early-career professionals seeking comprehensive business education. The 12-month intensive program combines theoretical foundations with practical application.
+
+**Pre-Program Preparation (Optional - International Students)**
+- **Duration**: 4 weeks in July
+- **Content**: English language intensive, basic business concepts, UK cultural adaptation
+- **Cost**: £3,500 (separate from main program fees)
+- **Accommodation**: On-campus housing provided
+- **Support**: Dedicated international student advisors and peer buddy system
+
+**Foundation Term (September - October):**
+
+**Accounting Fundamentals (ACCT-100)**
+- **Duration**: 4 weeks, 24 contact hours
+- **Assessment**: Midterm exam (40%), Problem sets (35%), Class participation (25%)
+- **Content**: Financial statements, cost accounting, budgeting, cash flow analysis
+- **Software**: Excel advanced functions, QuickBooks introduction
+- **Case Studies**: Real company financial analysis including Tesla, Unilever, British Airways
+- **Prerequisites**: None (designed for non-business backgrounds)
+- **Key Faculty**: Prof. Andrew Mitchell (CPA, former Ernst & Young senior manager)
+
+**Economics for Managers (ECON-100)**
+- **Duration**: 4 weeks, 24 contact hours
+- **Assessment**: Individual assignments (45%), Group project (30%), Final exam (25%)
+- **Content**: Microeconomics, macroeconomics, market structures, economic policy impact
+- **Current Events Integration**: Weekly analysis of economic news and market movements
+- **Guest Speakers**: Bank of England economists, think tank researchers
+- **Practical Application**: Economic impact analysis of business decisions
+- **Key Faculty**: Dr. Helen Stevenson (Oxford PhD, former HM Treasury economic advisor)
+
+**Statistics and Data Analysis (STATS-100)**
+- **Duration**: 4 weeks, 24 contact hours
+- **Assessment**: Problem sets (40%), Data analysis project (35%), Practical exam (25%)
+- **Content**: Descriptive statistics, hypothesis testing, regression analysis, data visualization
+- **Software Training**: R, SPSS, Tableau basics
+- **Lab Sessions**: 2 hours weekly in computer lab with dedicated TA support
+- **Real Data Projects**: Analysis of social media trends, consumer survey data, financial markets
+- **Key Faculty**: Dr. Thomas Zhang (LSE PhD, former Nielsen senior statistician)
+
+**Core Term 1 (November - February):**
+
+**Strategic Management (STRATEGY-200)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Strategic analysis (40%), Group strategy project (35%), Case presentations (25%)
+- **Content**: Competitive dynamics, corporate strategy, international expansion, innovation strategy
+- **Methodology**: Case-based learning with Harvard Business School cases
+- **Industry Immersion**: Site visits to Rolls-Royce, Diageo, ARM Holdings
+- **Consulting Project**: 6-week engagement with local SME developing growth strategy
+- **Key Faculty**: Prof. Victoria Campbell (Harvard PhD, former Boston Consulting Group principal)
+
+**Marketing Management (MARKETING-200)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Marketing plan (45%), Consumer research project (30%), Digital campaign (25%)
+- **Content**: Brand management, consumer behavior, digital marketing, pricing strategy
+- **Live Projects**: Partner with start-ups to develop go-to-market strategies
+- **Industry Workshops**: Unilever brand management, Google digital marketing certification
+- **Market Research**: Primary research project including surveys, focus groups, data analysis
+- **Key Faculty**: Dr. Isabella Romano (INSEAD PhD, former L'Oréal global marketing director)
+
+**Operations and Supply Chain (OPERATIONS-200)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Process improvement project (40%), Supply chain case study (35%), Operations simulation (25%)
+- **Content**: Lean operations, inventory management, quality control, sustainability
+- **Simulations**: Multi-week beer game and manufacturing simulation competitions
+- **Company Visits**: Jaguar Land Rover plant, Amazon fulfillment center, Heathrow operations
+- **Sustainability Focus**: Circular economy principles, sustainable supply chain design
+- **Key Faculty**: Prof. Kumar Patel (MIT PhD, former Rolls-Royce operations director)
+
+**Core Term 2 (March - June):**
+
+**Corporate Finance (FINANCE-200)**
+- **Duration**: 8 weeks, 32 contact hours
+- **Assessment**: Valuation project (45%), Financial modeling (30%), Investment pitch (25%)
+- **Content**: Capital budgeting, company valuation, capital structure, risk management
+- **Bloomberg Terminal**: 12 hours hands-on training with real-time market data
+- **Investment Competition**: Manage virtual £100,000 portfolio with performance tracking
+- **Industry Project**: Equity research report on FTSE 250 company with analyst presentation
+- **Key Faculty**: Prof. Simon Davies (Cambridge PhD, former Barclays investment banking director)
+
+**Organizational Behavior and Leadership (LEADERSHIP-200)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Leadership development plan (40%), Team project (35%), 360 feedback analysis (25%)
+- **Content**: Team dynamics, conflict resolution, change management, cross-cultural leadership
+- **Experiential Learning**: Leadership simulations, role-playing exercises, outdoor challenges
+- **Personal Development**: Executive coaching sessions, psychometric testing, strengths assessment
+- **Diversity and Inclusion**: Unconscious bias training, inclusive leadership workshops
+- **Key Faculty**: Dr. Francesca Rossi (INSEAD PhD, certified executive coach)
+
+**Organizational Innovation and Change (INNOVATION-200)**
+- **Duration**: 6 weeks, 24 contact hours
+- **Assessment**: Innovation project (50%), Change management case (30%), Creativity portfolio (20%)
+- **Content**: Design thinking, innovation processes, digital transformation, organizational change
+- **Methodology**: Human-centered design, agile methodologies, lean startup principles
+- **Partner Projects**: Collaborate with NHS trusts, local government, social enterprises
+- **Innovation Lab**: Access to maker space, 3D printing, rapid prototyping tools
+- **Key Faculty**: Prof. Alexandra Murphy (Stanford PhD, former IDEO design director)
+
+**Summer Internship (July - August):**
+All MiM students complete 8-week mandatory internships with career services support for placement, coaching, and performance evaluation. Average intern salary: £2,500/month.
+
+**Capstone Term (September):**
+
+**Integrated Business Strategy Project (CAPSTONE-300)**
+- **Duration**: 4 weeks, 32 contact hours
+- **Assessment**: Final project (80%), Peer evaluation (20%)
+- **Content**: Integration of all program learnings into comprehensive business challenge
+- **Project Formats**: New venture launch, corporate transformation, social impact initiative
+- **Mentorship**: Industry mentor assigned from 40,000+ alumni network
+- **Final Presentation**: Investor panel including VCs, corporate executives, successful entrepreneurs
+- **Outcomes**: Top projects receive seed funding opportunities and job offers
+Source: [MiM Complete Program Guide](https://london.edu/programs/mim/detailed-curriculum)
+
+---
+
+## Student Services & Support
+
+### Career Services
+The Career Centre provides comprehensive support including CV/resume reviews, interview preparation, networking events, and job placement assistance. Students have access to the alumni network of over 40,000 professionals globally. Career coaching sessions are available by appointment. The Centre maintains partnerships with over 200 companies for internship and graduate opportunities.
+Source: [LBS Career Centre](https://london.edu/careers)
+
+---
+
+### Library and Learning Resources
+The London Business School Library provides access to over 150,000 books, 40,000+ e-journals, and 200+ databases. Students can book study rooms online up to 7 days in advance. Librarians offer research support and database training sessions. 24/7 access is available to current students via student ID card. Inter-library loans are available for specialized resources.
+Source: [LBS Library Services](https://london.edu/library)
+
+---
+
+### IT Support and Technology
+All students receive laptop recommendations and software access including Microsoft Office 365, SPSS, R, Python, and Tableau. Wi-Fi access is available throughout campus. IT Help Desk provides technical support Monday-Friday 8am-6pm. Students can request software installations and attend technology training workshops.
+Source: [LBS IT Services](https://london.edu/it-support)
+
+---
+
+### Mental Health and Wellbeing
+The Student Counselling Service provides confidential support for academic stress, personal issues, and mental health concerns. Services include individual counselling, group workshops, and crisis support. Students can self-refer via the online portal or phone. Emergency support is available 24/7 through the campus security team and external partnerships.
+Source: [LBS Student Wellbeing](https://london.edu/student-wellbeing)
+
+---
+
+## Administrative Procedures
+
+### Student Registration and Enrollment
+Students must confirm their enrollment by paying the enrollment deposit by the specified deadline. Course registration opens 4 weeks before each term begins. Students must register for all required modules and confirm their timetable via the Student Portal. Changes to registration are permitted until the end of Week 2 of each term.
+Source: [LBS Registration Guide](https://london.edu/registration)
+
+---
+
+### Fee Payment and Financial Aid
+Tuition fees must be paid according to the payment schedule outlined in the offer letter. Late payment fees apply after the grace period. Financial aid applications are due by March 31st for the following academic year. Scholarships are awarded based on merit, need, and diversity criteria. Payment plans are available for students facing financial difficulties.
+Source: [LBS Financial Services](https://london.edu/fees-and-funding)
+
+---
+
+### Student Records and Transcripts
+Transcripts can be requested online via the LBS Student Portal. Processing typically takes 3-5 business days for electronic transcripts, 7-10 days for physical copies. Official transcripts require verification of student identity. Certified copies are available for immigration and employment purposes. Academic records are maintained for 50 years post-graduation.
+Source: [LBS Student Portal FAQ](https://london.edu/portal/faq)
+
+---
+
+### International Student Support
+International students receive specialized support including visa guidance, accommodation assistance, and cultural adaptation programs. Students must maintain valid student visa status throughout their program. Work authorization is available for internships and graduate employment. Regular immigration workshops are provided throughout the academic year.
+Source: [LBS International Student Office](https://london.edu/international-students)
+
+---
+
+## Examinations and Assessment
+
+### Examination Procedures
+Final examinations are held at the end of each term in designated examination halls. Students must bring valid ID and approved materials only. Mobile phones and electronic devices must be switched off and stored. Late arrival beyond 30 minutes results in exclusion from the examination. Special arrangements are available for students with disabilities.
+Source: [LBS Examination Regulations](https://london.edu/examinations)
+
+---
+
+### Coursework Assessment Guidelines
+Coursework includes individual assignments, group projects, presentations, and class participation. Assessment criteria are provided in each module syllabus. Word limits are strictly enforced with penalties for exceeding limits. All work must be submitted through designated platforms (Canvas, Turnitin). Peer evaluation is required for group work.
+Source: [LBS Assessment Framework](https://london.edu/assessment-guidelines)
+
+---
+
+### Resit and Remediation Policy
+Students who fail a module may be eligible for resit examinations or alternative assessment. Resit opportunities are typically offered once per academic year. Maximum grade achievable on resit is capped at pass level (50% for Masters programmes, 60% for MBA programmes) unless exceptional circumstances apply. Students failing multiple modules may be required to withdraw from the program.
+Source: [LBS Resit Policy](https://london.edu/policies/resits)
+
+---
+
+## Student Life and Activities
+
+### Student Clubs and Societies
+LBS has over 50 student-led clubs covering professional, cultural, and recreational interests. Popular clubs include Consulting Club, Finance Society, Marketing Society, and various cultural associations. Club membership is open to all students and provides networking and professional development opportunities.
+Source: [LBS Student Activities](https://london.edu/student-life/clubs)
+
+---
+
+### Accommodation Services
+The Accommodation Office assists students in finding suitable housing in London. Options include university halls, private rentals, and homestay arrangements. Early applications are recommended due to high demand. Support is provided for viewing properties, understanding tenancy agreements, and resolving accommodation issues.
+Source: [LBS Accommodation Office](https://london.edu/accommodation)
+
+---
+
+### Health and Safety
+All students must complete mandatory health and safety induction training. Emergency procedures are posted throughout campus buildings. First aid stations are available on each floor. Students must report accidents and incidents immediately to campus security. Regular fire drills are conducted, and participation is mandatory.
+Source: [LBS Health and Safety Policy](https://london.edu/health-safety)
+
+---
+
+### Policy: Escalation Pathway for Sensitive Issues
+For complex or sensitive issues including harassment, discrimination, mental health crises, or academic misconduct, students should contact the Program Office directly. All cases are handled confidentially by trained staff. Emergency situations require immediate contact with campus security (extension 2222) or emergency services (999). Anonymous reporting is available through the online incident reporting system.
+Source: [LBS Student Support Services](https://london.edu/support)
+
+---
+
+## Alumni and Career Development
+
+### Alumni Network
+LBS has over 40,000 alumni worldwide across 160 countries. Alumni mentorship programs connect current students with industry professionals. Regional alumni chapters organize networking events and professional development sessions. The alumni directory is accessible through the Student Portal for networking purposes.
+Source: [LBS Alumni Relations](https://london.edu/alumni)
+
+---
+
+### Graduate Employment Statistics
+Recent MAM graduates achieve 95% employment rate within 6 months of graduation with average starting salaries of £55,000-£75,000. Top employers include consulting firms, technology companies, and financial services. MiM graduates report 92% employment rate with average starting salaries of £45,000-£65,000. Career outcomes are tracked annually through graduate surveys.
+Source: [LBS Career Statistics](https://london.edu/career-outcomes)
+
+---
+
+### Professional Development
+Students can access LinkedIn Learning, professional certification programs, and industry-specific training workshops. Skills development sessions cover presentation skills, data analysis, project management, and leadership. Professional coaching is available through the Career Centre by appointment.
+Source: [LBS Professional Development](https://london.edu/professional-development)
+
+---
+
+## LBS Official Academic Regulations 2024
+
+### Official Grade Classifications
+London Business School uses the following official grade classifications for all programmes:
+
+**Masters Programmes (MAM, MiM, MFA, etc.):**
+- **Distinction**: 70% and above
+- **Merit**: 60-69%
+- **Pass**: 50-59%
+- **Fail**: Below 50%
+
+**MBA Programme:**
+- **High Distinction**: 85% and above  
+- **Distinction**: 70-84%
+- **Pass**: 60-69%
+- **Marginal Pass**: 50-59%
+- **Fail**: Below 50%
+
+### Official Assessment Requirements
+All London Business School students must meet the following assessment requirements:
+
+**Mandatory Participation:**
+- Attend minimum 80% of all scheduled classes, seminars, and workshops
+- Submit all required coursework by specified deadlines without exception
+- Participate actively in group work, presentations, and collaborative projects
+- Complete all examinations, assessments, and evaluation components as scheduled
+- Engage constructively in peer evaluation and feedback processes
+
+**Academic Integrity Standards:**
+- All submitted work must represent original thinking and effort by the student
+- Proper citation and attribution required for all external sources and references
+- Collaboration permitted only when explicitly authorized and within specified parameters
+- Use of artificial intelligence tools must be declared and comply with module-specific guidelines
+- Academic integrity training completion mandatory before first assessment submission
+
+### Official Resit and Reassessment Policy
+Students who fail a module have specific reassessment opportunities under clearly defined conditions:
+
+**Resit Eligibility:**
+- One resit opportunity available per failed module subject to academic regulations
+- Maximum achievable grade on resit attempts capped at pass level (50% for Masters, 60% for MBA)
+- Alternative assessment methods may be offered where educationally appropriate
+- Extended study programs available in exceptional circumstances with additional fee implications
+- Resit attempts must be completed within specified timeframes to maintain program progression
+
+### Official Programme Progression Requirements
+
+**MBA Programme Progression:**
+- Pass grades required in all core modules before advancement to elective phase
+- Minimum GPA of 2.5 to continue to electives phase
+- Completion of mandatory International Exchange or Global Business Experience component
+- Successful completion of Leadership Assessment and Development Programme
+- Active engagement with Career Development and Professional Skills modules
+
+**Masters Programme Progression:**
+- Pass grades required in all first-year core modules for progression to dissertation phase
+- Minimum 50% average maintained across all modules throughout programme duration
+- Successful completion of dissertation or capstone project meeting academic standards
+- Fulfillment of programme-specific requirements including internships or industry projects
+- Demonstration of professional competencies through portfolio and assessment evidence
+
+### Official Examination Regulations
+All examinations at London Business School are conducted under strict regulations:
+
+**Examination Protocols:**
+- Photo identification required for all formal examinations and proctored assessments
+- Mobile phones and unauthorized electronic devices strictly prohibited in examination venues
+- Strict adherence to time limits with no extensions except for approved disability accommodations
+- Materials and resources permitted only as explicitly authorized in examination instructions
+- Late arrival beyond 30 minutes may result in exclusion from examination
+
+### Official Academic Appeals Process
+Students may appeal academic decisions through the formal process:
+
+**Appeal Stages:**
+1. **Informal Resolution**: Discussion with module leader within 5 working days
+2. **Formal Academic Appeal**: Written submission to Academic Appeals Committee within 10 working days
+3. **Final School Review**: Appeal to School Academic Board within 15 working days
+4. **External Review**: Office of the Independent Adjudicator where appropriate
+
+**Appeal Grounds:**
+- Procedural irregularities in assessment process
+- Bias or discrimination in assessment
+- New evidence not available at time of original assessment
+- Extenuating circumstances not properly considered
+
+Source: [LBS Academic Regulations 2024, Version 2024-1.0](https://london.edu/policies/academic-regulations-2024)
+
+---
+
+## LBS Extenuating Circumstances Policy 2024
+
+### Definition and Scope
+Extenuating circumstances are exceptional situations beyond a student's control that significantly impact their ability to attend classes, complete assessments, or meet academic requirements.
+
+### Qualifying Circumstances
+
+**Medical Circumstances:**
+- Serious illness or injury requiring medical treatment
+- Mental health conditions requiring professional intervention
+- Chronic medical conditions with acute episodes
+- Medical emergencies affecting the student or immediate family members
+- Pregnancy-related complications and childbirth
+
+**Personal Circumstances:**
+- Bereavement of close family member or partner
+- Serious illness of immediate family requiring care responsibilities
+- Domestic violence or abuse situations requiring support
+- Major financial hardship significantly affecting study capacity
+- Immigration or visa issues beyond student control
+
+**External Circumstances:**
+- Natural disasters affecting study location or family home
+- Transport strikes preventing attendance at critical assessments
+- Jury service or mandatory court appearances
+- Military service obligations or reservist duties
+- Verified technical failures during online assessments
+
+### Application Process and Timeline
+
+**Application Requirements:**
+1. Submit application within 10 working days of the affected assessment or deadline
+2. Complete the official Extenuating Circumstances Form available on Canvas
+3. Provide supporting evidence from qualified professionals or official sources
+4. Attend meeting with Student Support Services if requested by the committee
+5. Maintain ongoing communication with Personal Tutor throughout process
+
+**Required Supporting Evidence:**
+- Medical certificate from qualified healthcare professional for health-related circumstances
+- Official documentation for personal circumstances (death certificates, court orders, etc.)
+- Third-party verification where possible and appropriate
+- Clear timeline of events and specific impact on academic studies
+- Identification of specific assessments, examinations, or classes affected
+
+### Assessment and Outcomes
+
+**Committee Consideration Factors:**
+- Severity and duration of the circumstances
+- Direct impact on academic performance and ability to study
+- Timing of circumstances in relation to assessments
+- Previous applications and any patterns of circumstances
+- Availability and utilization of support services
+
+**Possible Outcomes for Approved Applications:**
+- Extension of assignment deadlines (typically 7-14 working days)
+- Deferred examination to next available examination period
+- Alternative assessment method or format
+- Withdrawal from affected module without academic penalty
+- Temporary suspension of studies with preserved place
+
+**Support and Referral Services:**
+- Student Counselling Service: counselling@london.edu
+- Disability and Wellbeing Team: disability@london.edu
+- Financial Hardship Support: finance@london.edu
+- International Student Support: international@london.edu
+- Mental Health First Aid: wellbeing@london.edu
+
+### Appeals and Review Process
+Students may appeal Extenuating Circumstances Committee decisions:
+
+**Appeal Process:**
+1. Submit written appeal within 10 working days of decision notification
+2. Provide new evidence not previously considered by the committee
+3. Attend appeal hearing if required by the Appeals Panel
+4. Final review by Academic Board available in exceptional circumstances
+
+**Confidentiality and Data Protection:**
+- All applications treated with strict confidentiality
+- Information shared only with directly relevant academic and support staff
+- Medical details protected under GDPR and data protection legislation
+- Student consent required for any information sharing beyond immediate needs
+
+### Emergency Support and Crisis Intervention
+
+**Immediate Support Contacts:**
+- Student Support Emergency Line: +44 (0)20 7000 7000
+- Mental Health Crisis Support: wellbeing@london.edu
+- Out-of-hours Emergency Support: security@london.edu
+- NHS Emergency Services: 999 or 111
+
+**Preventative Support Services:**
+- Proactive engagement with Personal Tutors
+- Early access to counselling and support services
+- Financial planning and emergency funding
+- Academic skills development and study support
+- International student cultural and practical support
+
+Source: [LBS Extenuating Circumstances Policy 2024, Version 2024-1.0](https://london.edu/policies/extenuating-circumstances-2024)
+
+---

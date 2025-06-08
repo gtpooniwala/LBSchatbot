@@ -1,27 +1,36 @@
+# LBS RAG Chatbot - Backend Dependencies
+# Updated: June 2025
+
 # Core web framework
 flask==2.3.3
 flask-cors==4.0.0
 
-# AI/ML libraries
+# AI/ML libraries for RAG pipeline
 openai>=1.6.1
-langchain
-langchain-openai
 sentence-transformers>=2.7.0
 transformers>=4.21.0
 huggingface-hub>=0.20.0
-chromadb==0.4.15
 
-# Data processing
+# Data processing and vector operations
 pandas==2.1.3
 numpy==1.24.3
 scikit-learn>=1.3.0
 
-# Text processing
+# Text processing and tokenization
 tiktoken>=0.7
-pypdf2==3.0.1
 
 # Environment management
 python-dotenv==1.0.0
 
-# HTTP requests
+# HTTP requests and utilities
 requests==2.31.0
+
+# Optional: ChromaDB for advanced vector storage (currently using sklearn)
+# chromadb==0.4.15
+
+# Optional: LangChain integration (not currently used)
+# langchain
+# langchain-openai
+
+# Optional: PDF processing (not currently needed)
+# pypdf2==3.0.1

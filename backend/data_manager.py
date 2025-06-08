@@ -40,8 +40,8 @@ class DataManager:
             
             content = '\n'.join(processed_lines)
             
-            # Split by section separators (---)
-            sections = re.split(r'\n---\n', content)
+            # Split by section separators (---) - handle both \n---\n and standalone ---
+            sections = re.split(r'\n?---\n?', content)
             
             for section in sections:
                 section = section.strip()
@@ -53,11 +53,13 @@ class DataManager:
                     source = ""
                     
                     for line in lines:
-                        if line.startswith('## '):
-                            title = line.replace('## ', '').strip()
+                        if line.startswith('## ') or line.startswith('### '):
+                            # Handle both ## and ### headers
+                            title = line.replace('## ', '').replace('### ', '').strip()
                         elif line.startswith('Source: '):
                             source = line.replace('Source: ', '').strip()
-                        elif line.strip() and not line.startswith('#') and not line.startswith('Source: '):
+                        elif line.strip() and not line.startswith('#') and not line.startswith('Source: ') and not line.startswith('---'):
+                            # Include all content lines, including those with formatting
                             content_text += line.strip() + " "
                     
                     if title and content_text:

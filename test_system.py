@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 
 # Configuration
-BASE_URL = "http://localhost:5001"
+BASE_URL = "http://localhost:5003"
 TEST_QUERIES = [
     {
         "query": "What is the attendance policy?",
