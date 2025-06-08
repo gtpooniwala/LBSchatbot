@@ -6,8 +6,9 @@ A sophisticated **Retrieval-Augmented Generation (RAG)** chatbot designed for Lo
 
 ### Core Functionality
 
-- **📚 Real Academic Policy Integration**: Direct access to official LBS academic regulations and extenuating circumstances policies from PDF documents
-- **🎓 Grade Classification System**: Official LBS grading scales for Masters (Distinction: 70%+, Merit: 60-69%, Pass: 50-59%) and MBA programs
+- **🤖 Intelligent Query Handling**: Uses OpenAI's GPT-3.5-turbo to provide accurate, context-aware responses
+- **📄 Knowledge Base**: This public version integrates dummy LBS documents covering academic policies, Canvas support, and student services. The official version uses official LBS Documents covering the same policies.
+- **📚 Real Academic Policy Integration**: Direct access to LBS academic regulations and extenuating circumstances policies from PDF documents
 - **💻 Canvas Support**: Comprehensive help with learning management system functionality
 - **📞 Contact Information**: Direct access to LBS support services (wellness, career, IT, program office)
 - **🛡️ 3-Tier Safety System**: Intelligent escalation for sensitive queries including mental health crisis intervention
@@ -148,16 +149,62 @@ curl -X POST http://localhost:5003/api/chat \
   -d '{"message": "What can you help me with?"}'
 ```
 
-### Demo Conversations
+### Automated Testing Scripts
 
-The system includes 4 essential demo conversations that showcase all functionality:
+The system includes comprehensive test scripts for validation and quality assurance:
 
-1. **Capability Overview & Academic Policies**
-2. **Extenuating Circumstances (Real Data Integration)**
-3. **Crisis Escalation & Boundaries**
-4. **Canvas Support (Multi-turn Memory)**
+#### 🚀 **Quick Test** (`tests/quick_test.py`)
 
-See `DEMO_QUESTIONS_COPY_PASTE.md` for ready-to-use test questions.
+```bash
+python tests/quick_test.py
+```
+
+- **Purpose**: Fast validation of basic functionality
+- **Tests**: Real content integration with grade classifications query
+- **Runtime**: ~10 seconds
+- **Use Case**: Quick health check during development
+
+#### 🧪 **Capability Tests** (`tests/test_capabilities.py`)
+
+```bash
+python tests/test_capabilities.py
+```
+
+- **Purpose**: Verify chatbot responds properly to "what can you help with" queries
+- **Tests**: 4 different capability queries
+- **Validates**: Response quality, helpfulness, and content coverage
+- **Use Case**: Ensure users get proper guidance on system capabilities
+
+#### 📚 **Real Content Tests** (`tests/test_real_content.py`)
+
+```bash
+python tests/test_real_content.py
+```
+
+- **Purpose**: Validate integration of official LBS documents
+- **Tests**: Grade classifications, resit policies, extenuating circumstances
+- **Validates**: Source attribution, accurate content retrieval
+- **Use Case**: Confirm official PDF content is accessible and accurate
+
+#### 🔧 **System Tests** (`tests/test_system.py`)
+
+```bash
+python tests/test_system.py
+```
+
+- **Purpose**: Comprehensive end-to-end system validation
+- **Tests**: Health endpoint, chat functionality, escalation detection, error handling
+- **Validates**: Full RAG pipeline, safety system, API responses
+- **Use Case**: Complete system verification before deployment
+
+#### Test Results Format
+
+All test scripts provide detailed output including:
+
+- ✅ **Pass/Fail Status**: Clear indicators for each test
+- 📊 **Metrics**: Response times, content length, source counts
+- 🔍 **Details**: Answer previews, source titles, escalation flags
+- 📈 **Summary**: Overall test results and recommendations
 
 ## 📁 Project Structure
 
@@ -166,6 +213,13 @@ generative-ai-chatbot/
 ├── README.md                    # This file
 ├── requirements.txt            # Python dependencies
 ├── DEMO_QUESTIONS_COPY_PASTE.md # Demo conversation scripts
+├── tests/                      # Testing scripts
+│   ├── quick_test.py          # Fast functionality validation
+│   ├── test_capabilities.py   # Capability query testing
+│   ├── test_real_content.py   # Real content integration tests
+│   └── test_system.py         # Comprehensive system tests
+├── tools/                      # Utility scripts
+│   └── extract_pdf.py         # PDF content extraction tool
 ├── backend/
 │   ├── app.py                  # Flask API server
 │   ├── data_manager.py         # Knowledge base & search
