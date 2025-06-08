@@ -35,7 +35,7 @@ def test_real_content():
                 print(f"📚 Sources: {len(data.get('sources', []))}")
                 print(f"📄 Answer preview: {data.get('answer', '')[:200]}...")
                 if data.get('sources'):
-                    print(f"🔗 Source titles: {[s.get('title', 'Unknown') for s in data.get('sources', [])]}")
+                    print("📖 Sources found:")
             else:
                 print(f"❌ HTTP Error: {response.status_code}")
                 print(f"Response: {response.text}")

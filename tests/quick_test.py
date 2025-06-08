@@ -30,7 +30,7 @@ def quick_test():
             print("📄 Answer:", data.get('answer', 'No answer'))
             print("\n📚 Sources:")
             for i, source in enumerate(data.get('sources', []), 1):
-                print(f"   {i}. {source.get('title', 'Unknown')}")
+                print(f"   {i}. {source}")
             
             if data.get('sources'):
                 print("\n✅ Real content integration working!")
