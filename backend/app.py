@@ -30,7 +30,7 @@ def chat():
     try:
         # Get the query from request
         data = request.get_json()
-        user_query = data.get('query', '').strip()
+        user_query = data.get('message', data.get('query', '')).strip()
         
         if not user_query:
             return jsonify({'error': 'Empty query provided'}), 400

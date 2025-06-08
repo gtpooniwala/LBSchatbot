@@ -97,10 +97,31 @@ Context will be provided for each query. Base your responses strictly on this co
         """Prepare the user message with context and sources, adjusted for safeguard tier"""
         
         if not context:
-            return f"""Student Query: "{query}"
+            # Check if this is a "what can you help with" type query
+            query_lower = query.lower()
+            if any(phrase in query_lower for phrase in ['what can you', 'what do you', 'what are you', 'help me with', 'tell me about', 'what topics', 'what information']):
+                return f"""Student Query: "{query}"
 Safeguard Tier: {safeguard_tier}
 
-No relevant context found in the knowledge base. Please provide a helpful response directing the student to contact the Program Office for assistance."""
+This appears to be a query asking about the chatbot's capabilities. Please provide a comprehensive overview of what the LBS MAM & MiM Program Office chatbot can help with, including:
+
+- Academic policies and procedures
+- Course information and curriculum details
+- Assessment guidelines and deadlines
+- Student services and support
+- Canvas and IT support
+- Career services and professional development
+- Administrative procedures
+- Library and learning resources
+- International student support
+- Mental health and wellbeing resources
+
+Make it welcoming and informative, showing the breadth of topics covered."""
+            else:
+                return f"""Student Query: "{query}"
+Safeguard Tier: {safeguard_tier}
+
+No relevant context found in the knowledge base. Please provide a helpful response explaining that while you don't have specific information about this topic, you can help with many other student-related queries, and suggest contacting the Program Office for this specific question."""
         
         sources_text = "\n".join([f"- {source}" for source in sources]) if sources else "No specific sources available"
         

@@ -8,7 +8,9 @@ class QueryProcessor:
         self.normal_topics = [
             'assignment', 'deadline', 'submission', 'canvas', 'login', 'schedule',
             'curriculum', 'course', 'module', 'timetable', 'library', 'resources',
-            'career', 'networking', 'events', 'alumni', 'internship', 'job search'
+            'career', 'networking', 'events', 'alumni', 'internship', 'job search',
+            'what can you', 'what do you', 'what are you', 'help me with', 'tell me about',
+            'what topics', 'what information', 'capabilities', 'what is available'
         ]
         
         # TIER 2: Cautious topics - AI provides basic info but strongly recommends human contact
