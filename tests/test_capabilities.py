@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Test script for LBS RAG Chatbot capability queries
+Verifies that the chatbot properly responds to "what can you help with" type queries
+"""
 
 import requests
 import json

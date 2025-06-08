@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Test script for LBS RAG Chatbot real content integration
+Verifies that official LBS documents are properly integrated and accessible
+"""
 
 import requests
 import json
@@ -11,7 +15,7 @@ def test_real_content():
     # Test queries for real content
     test_queries = [
         "What are the official LBS grade classifications for Masters programmes?",
-        "What is the resit policy and grade caps?",
+        "What is the resit policy and grade caps?", 
         "What qualifies as extenuating circumstances at LBS?",
         "What is the minimum pass requirement for Masters programmes?"
     ]

@@ -70,7 +70,7 @@ def test_chat_query(query_data):
         response = requests.post(
             f"{BASE_URL}/api/chat",
             headers={"Content-Type": "application/json"},
-            json={"query": query_data["query"]}
+            json={"message": query_data["query"]}
         )
         
         if response.status_code != 200:
